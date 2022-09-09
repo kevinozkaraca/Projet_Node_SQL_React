@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Projet de fin de formation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinozkaraca/Projet_Node_SQL_React.git"
+  },
+  "author": "Kevin Özkaraca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinozkaraca/Projet_Node_SQL_React/issues"
+  },
+  "homepage": "https://github.com/kevinozkaraca/Projet_Node_SQL_React#readme"
+}
