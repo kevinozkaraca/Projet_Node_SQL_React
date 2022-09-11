@@ -40,9 +40,11 @@ width= 90%
 
 ## Informations
 
-Backend port : 3005
-MySQL DB port : 3306
-Frontend port : 3000
+- Backend port : 3005
+- MySQL DB port : 3306
+- Frontend port : 3000
+
+## Mise en place de la base de données
 
 prisma base de données dans un fichier shema.prisma :
 
