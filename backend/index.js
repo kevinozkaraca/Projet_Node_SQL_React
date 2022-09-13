@@ -35,7 +35,7 @@ const errorHandler = (error) => {
       throw error;
   }
 };
-
+/*
 // fastify permet la gestion de la base de données
 //Il permet de vérifier rapidement les requêtes entrantes et sortantes
 const fastify = require("fastify")({
@@ -49,7 +49,7 @@ require("dotenv").config();
 // cors permet que le frontend appelle le backend
 const cors = require("@fastify/cors");
 const compress = require("@fastify/compress");
-const auth = require("./middlewares/auth");
+const auth = require("./others/auth");
 
 const start = async () => {
   try {
@@ -69,7 +69,7 @@ const start = async () => {
   }
 };
 start();
-
+*/
 const server = http.createServer(app);
 
 server.on("error", errorHandler);

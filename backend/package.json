@@ -4,7 +4,8 @@
   "description": "Projet de fin de formation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,13 +19,19 @@
   "homepage": "https://github.com/kevinozkaraca/Projet_Node_SQL_React#readme",
   "dependencies": {
     "@fastify/compress": "^6.1.1",
+    "@fastify/cors": "^8.1.0",
     "@fastify/helmet": "^10.0.0",
     "@fastify/rate-limit": "^7.4.0",
     "@prisma/client": "^4.3.1",
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
     "fastify": "^4.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.19",
+    "password-validator": "^5.3.0",
     "prisma": "^4.3.1"
   }
 }

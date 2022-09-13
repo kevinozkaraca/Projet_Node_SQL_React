@@ -55,7 +55,7 @@ generator client {
 
 datasource db {
   provider = "mysql"
-  url      = env("3306")
+  url = "mysql://root:VOTRE_MOT_DE_PASSE@localhost:3306/mydb"
 }
 
 model User {
@@ -115,6 +115,26 @@ Relancer la base de données si besoin.
 <img 
 class="IMGlink"
 src="imagesReadme/003.jpg"
+width= 90%
+        />
+</p>
+
+## Mise en place des routes
+
+<p align="center">
+<img 
+class="IMGlink"
+src="imagesReadme/004.jpg"
+width= 90%
+        />
+</p>
+
+## Test du backend
+
+<p align="center">
+<img 
+class="IMGlink"
+src="imagesReadme/005.jpg"
 width= 90%
         />
 </p>
