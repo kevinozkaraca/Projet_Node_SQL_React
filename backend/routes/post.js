@@ -3,7 +3,7 @@ const router = express.Router();
 const authorize = require("../others/auth");
 const postController = require("../controllers/post");
 const multer = require("../others/multer");
-
+// Routes pour la gestion des posts
 router.get("/", authorize, postController.getAllPosts);
 router.get("/:authorId/:date", postController.getPost);
 router.get("/:id", authorize, postController.getPostsByUser);

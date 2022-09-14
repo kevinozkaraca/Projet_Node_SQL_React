@@ -35,6 +35,9 @@ const errorHandler = (error) => {
       throw error;
   }
 };
+
+// A DECOMMENTER POUR LA MISE EN PLACE DE LA BD
+
 /*
 // fastify permet la gestion de la base de données
 //Il permet de vérifier rapidement les requêtes entrantes et sortantes
