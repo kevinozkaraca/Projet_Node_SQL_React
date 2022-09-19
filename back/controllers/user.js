@@ -43,7 +43,7 @@ exports.signup = async (req, res, next) => {
 };
 
 const createToken = (id) => {
-  // 123 est le code du token
+  // 123 est le code du token à mettre dans le .env
   return jwt.sign({ id }, "123", { expiresIn: "24h" });
 };
 
@@ -188,11 +188,11 @@ function crypting(password) {
     (e) => console.log("Error in crypting function crypting : " + e);
   }
 }
-
+// Conditions pour la nom d'utilisateur
 function verifNames(n) {
   return /^[^@&"()!_$*€£`+=\/;?#\d]+$/.test(n);
 }
-
+// Conditions pour l'adresse mail
 function verifMail(adresse) {
   return /^([A-Za-z]|[0-9])/.test(adresse);
 }

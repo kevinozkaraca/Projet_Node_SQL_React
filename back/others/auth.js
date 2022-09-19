@@ -3,7 +3,8 @@ const jwt = require("jsonwebtoken");
 module.exports = (req, res, next) => {
   try {
     const tokenRecupere = req.headers.authorization.split(" ")[1];
-    const decodedToken = jwt.verify(tokenRecupere, process.env.SECRET_WORD);
+    // 123 est le code du token (a mettre dans le .env)
+    const decodedToken = jwt.verify(tokenRecupere, "123");
     const userId = decodedToken.id;
     if (req.body.userId && req.body.userId !== userId) {
       throw res.status(403).json({ message: "UserId is not correct (Jwt)." });

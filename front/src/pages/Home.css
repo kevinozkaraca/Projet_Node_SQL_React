@@ -1,0 +1,210 @@
+@media screen and (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .Home {
+    color: #4e5166;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .LogoCenter {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .logoHeaderIMG {
+    width: 300px;
+    height: 55px;
+    object-fit: cover;
+    filter: drop-shadow(3px 2px 0px #fd2d01);
+    margin: 10px;
+  }
+  .cadreSignin {
+    margin: 5px;
+    padding: 10px;
+  }
+
+  .cadreSignup {
+    margin: 5px;
+    padding: 10px;
+  }
+  h1 {
+    font-size: x-large;
+    margin: 5px;
+  }
+  label {
+    font-size: medium;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  input {
+    font-size: medium;
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 5px black;
+    color: black;
+    border-radius: 10px;
+  }
+  .formSigninSubmitInput {
+    width: 95%;
+    font-size: large;
+    color: white;
+    background-color: #4e5166;
+  }
+  .formSignupSubmitInput {
+    width: 95%;
+    font-size: large;
+    color: white;
+    background-color: #4e5166;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .Home {
+    color: #4e5166;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .LogoCenter {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .logoHeaderIMG {
+    width: 300px;
+    height: 55px;
+    object-fit: cover;
+    filter: drop-shadow(3px 2px 0px #fd2d01);
+    margin: 10px;
+  }
+  .cadreSignin {
+    margin: 5px;
+    padding: 5px;
+    max-width: 45%;
+    display: inline-flex;
+  }
+  .cadreSignup {
+    margin: 5px;
+    padding: 5px;
+    width: 45%;
+    display: inline-flex;
+  }
+  h1 {
+    font-size: large;
+    position: absolute;
+    transform: translate(0px, -20px);
+  }
+  label {
+    font-size: medium;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  input {
+    font-size: medium;
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 5px black;
+    color: black;
+    border-radius: 10px;
+  }
+  .formSigninSubmitInput {
+    width: 95%;
+    font-size: large;
+    color: white;
+    background-color: #4e5166;
+  }
+  .formSignupSubmitInput {
+    width: 95%;
+    font-size: large;
+    color: white;
+    background-color: #4e5166;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 5000px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Home {
+    color: #4e5166;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .LogoCenter {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .logoHeaderIMG {
+    width: 700px;
+    height: 150px;
+    object-fit: cover;
+    filter: drop-shadow(3px 2px 0px #fd2d01);
+    margin: 80px;
+  }
+  .cadreSignin {
+    margin: 5px;
+    padding: 5px;
+    max-width: 45%;
+    display: inline-flex;
+  }
+  .cadreSignup {
+    margin: 5px;
+    padding: 5px;
+    width: 20%;
+    display: inline-flex;
+  }
+  h1 {
+    font-size: large;
+    position: absolute;
+    transform: translate(0px, -20px);
+  }
+  label {
+    font-size: medium;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  input {
+    font-size: medium;
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 5px black;
+    color: black;
+    border-radius: 10px;
+  }
+  .formSigninSubmitInput {
+    width: 95%;
+    font-size: large;
+    color: white;
+    background-color: #4e5166;
+  }
+  .formSignupSubmitInput {
+    width: 95%;
+    font-size: large;
+    color: white;
+    background-color: #4e5166;
+  }
+}

@@ -1,0 +1,160 @@
+@media screen and (max-width: 767px) {
+  .feedContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .profileCard {
+    width: 85%;
+    background-color: #4e5166;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+  }
+  .profileCardImg {
+    width: 100px;
+    border-radius: 10px;
+  }
+  .profileCardButts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .profileCardButt {
+    width: 42%;
+    padding: 5px;
+    margin: 5px;
+    background-color: #fd2d01;
+    border-radius: 15px;
+  }
+
+  /*modification*/
+  .profileCardIMG2 {
+    width: 100px;
+    border-radius: 15px;
+  }
+  .profileCardIMG1 {
+    width: 100px;
+    border-radius: 15px;
+  }
+  .profileCardInputsAvatar {
+    color: white;
+  }
+  .profileCardInputsCompanyFunction {
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .feedContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .profileCard {
+    width: 85%;
+    max-width: 720px;
+    background-color: #4e5166;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+  }
+  .profileCardImg {
+    width: 100px;
+    border-radius: 10px;
+  }
+  .profileCardName {
+    display: inline;
+    transform: translate(-200px, -100px);
+  }
+  .profileCardButts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .profileCardButt {
+    width: 42%;
+    padding: 5px;
+    margin: 5px;
+    background-color: #fd2d01;
+    border-radius: 15px;
+  }
+
+  /*modification*/
+  .profileCardIMG2 {
+    width: 100px;
+    border-radius: 15px;
+  }
+  .profileCardIMG1 {
+    width: 100px;
+    border-radius: 15px;
+  }
+  .profileCardInputsAvatar {
+    color: white;
+  }
+  .profileCardInputsCompanyFunction {
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 5000px) {
+  .feedContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .profileCard {
+    width: 85%;
+    background-color: #4e5166;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .profileCardImg {
+    width: 100px;
+    border-radius: 10px;
+  }
+  .profileCardName {
+    display: inline;
+    transform: translate(-200px, -100px);
+  }
+  .profileCardButts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .profileCardButt {
+    width: 42%;
+    padding: 5px;
+    margin: 5px;
+    background-color: #fd2d01;
+    border-radius: 15px;
+  }
+
+  /*modification*/
+  .profileCardIMG2 {
+    width: 100px;
+    border-radius: 15px;
+  }
+  .profileCardIMG1 {
+    width: 100px;
+    border-radius: 15px;
+  }
+  .profileCardInputsAvatar {
+    color: white;
+  }
+  .profileCardInputsCompanyFunction {
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
