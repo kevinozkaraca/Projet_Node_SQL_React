@@ -12,32 +12,6 @@ width= 90%
         />
 </p>
 
-<br />
-
-## Mise en place du projet Front/Back
-
-<br />
-
-mise en place du code (frontend / backend)
-
-<p align="center">
-<img 
-class="IMGlink"
-src="imagesReadme/001.jpg"
-width= 90%
-        />
-</p>
-
-préparation de soutenance (documents / informations)
-
-<p align="center">
-<img 
-class="IMGlink"
-src="imagesReadme/002.jpg"
-width= 90%
-        />
-</p>
-
 ## Informations
 
 - Backend port : 3005
@@ -119,17 +93,7 @@ width= 90%
         />
 </p>
 
-## Mise en place des routes
-
-<p align="center">
-<img 
-class="IMGlink"
-src="imagesReadme/004.jpg"
-width= 90%
-        />
-</p>
-
-## Test du backend
+## Information pour le backend
 
 <p align="center">
 <img 
@@ -138,3 +102,23 @@ src="imagesReadme/005.jpg"
 width= 90%
         />
 </p>
+
+Donner les droits d'administration à l'admin :
+
+<p align="center">
+<img 
+class="IMGlink"
+src="imagesReadme/006.jpg"
+width= 90%
+        />
+</p>
+
+L'administrateur peut supprimer les messages de tout le monde
+
+## Mise en place du frontend
+
+Installer le package avec la commande :
+
+```
+npm install
+```

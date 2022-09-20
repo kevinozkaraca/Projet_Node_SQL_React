@@ -4,7 +4,7 @@ const cors = require("cors");
 const app = express();
 const path = require("path");
 
-// Liens des routes
+// Fichiers des routes
 const userRouter = require("./routes/user");
 const authRouter = require("./routes/auth");
 const commentRouter = require("./routes/comment");
@@ -18,7 +18,7 @@ app.get("/", function (req, res) {
   res.send("Hello Man");
 });
 
-// Routes
+// Liens des routes
 app.use("/images", express.static(path.join(__dirname, "images")));
 app.use("/api/auth", authRouter);
 app.use("/api/user", userRouter);

@@ -33,7 +33,9 @@ const Post = ({ post }) => {
   const nbComments = () => {
     let nb = 0;
     Array.prototype.forEach.call(commentsData, (comment) => {
-      if (comment.postId === post.postId) nb++;
+      if (comment.postId === post.postId) {
+        nb++;
+      }
     });
     return nb;
   };
@@ -43,9 +45,6 @@ const Post = ({ post }) => {
       if (like.postId === post.postId) {
         nb++;
       }
-      if (nb == 2) {
-        nb = 1;
-      }
     });
     return nb;
   };
@@ -53,8 +52,11 @@ const Post = ({ post }) => {
     const liked = Array.from(likesData).find(
       (like) => like.postId === post.postId && like.userId === parseInt(sessionStorage.currentUser)
     );
-    if (liked === undefined) return false;
-    else return true;
+    if (liked === undefined) {
+      return false;
+    } else {
+      return true;
+    }
   };
 
   const sendComment = async (e) => {
