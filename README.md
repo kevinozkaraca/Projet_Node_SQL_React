@@ -76,6 +76,8 @@ model Likes {
 
 pour lancer la migration ouvrir mysql :
 
+- Lancer MySQL workbench
+
 - Changer la ligne 7 du fichier schema.prisma :
   url = "mysql://root:VOTRE_MOT_DE_PASSE@localhost:3306/mydb"
 
@@ -122,3 +124,5 @@ Installer le package avec la commande :
 ```
 npm install
 ```
+
+## Npm start (front et back)
