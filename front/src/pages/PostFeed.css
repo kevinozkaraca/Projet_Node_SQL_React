@@ -99,7 +99,7 @@
   .postCreatorTwoIconsSend .svg-inline--fa {
     color: white;
     filter: invert(100%);
-    transform: scale(150%);
+    transform: scale(1.5);
   }
   /* Affichage des messages */
   .thread {
@@ -729,7 +729,6 @@
     justify-content: center;
     max-width: 800px;
     margin: auto;
-    padding: auto;
   }
   .thread .post {
     width: 90%;

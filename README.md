@@ -97,14 +97,6 @@ width= 90%
 
 ## Information pour le backend
 
-<p align="center">
-<img 
-class="IMGlink"
-src="imagesReadme/007.jpg"
-width= 90%
-        />
-</p>
-
 Donner les droits d'administration à l'admin :
 
 <p align="center">
