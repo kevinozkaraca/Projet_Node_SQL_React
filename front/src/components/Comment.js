@@ -16,8 +16,9 @@ const Comment = (com) => {
         <div className="commentContentLight">
           <a className="commentContentName" href={`/profile${com.comment.authorId}`}>
             {usersData.map((user) => {
-              if (user.userId === com.comment.authorId) return user.username + " ";
-              else return null;
+              if (user.userId === com.comment.authorId) {
+                return user.username + " ";
+              } else return null;
             })}
           </a>
           {(com.comment.authorId === parseInt(sessionStorage.currentUser) || userData.isAdmin) && (
@@ -27,7 +28,8 @@ const Comment = (com) => {
               onClick={async () => {
                 if (window.confirm("Etes-vous sûr(e) ?\n(Cette action est irréversible)")) {
                   await dispatch(deleteComment(com.comment.comId));
-                  dispatch(getAllComments());
+                  await dispatch(getAllComments());
+                  window.location.reload(true);
                 }
               }}
             />

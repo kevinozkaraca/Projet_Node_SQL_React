@@ -32,6 +32,7 @@ const PostCreator = () => {
       setMessage("");
       setFile("");
       setVideo("");
+      window.location.reload(true);
       iVideo.innerText = "";
     } else alert("Veuillez écrire un message");
   };

@@ -97,7 +97,7 @@ width= 90%
 
 ## Information pour le backend
 
-Donner les droits d'administration à l'admin :
+Il faudra donner les droits d'administration à l'admin une fois déternminé:
 
 <p align="center">
 <img 
@@ -107,7 +107,7 @@ width= 90%
         />
 </p>
 
-L'administrateur peut supprimer les messages de tout le monde
+L'administrateur pourra supprimer les messages de tout le monde
 
 ## Mise en place du frontend
 
