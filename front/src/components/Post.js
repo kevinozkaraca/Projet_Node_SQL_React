@@ -82,12 +82,14 @@ const Post = ({ post }) => {
       postId: post.postId,
       userId: parseInt(sessionStorage.currentUser),
     };
-    if (isLikedByUser()) {
+    let cont = 1;
+    if (isLikedByUser() && cont == 1) {
       await dispatch(deleteLike(dataDel));
       dispatch(getLikes());
     } else {
       await dispatch(addLike(dataDel));
       dispatch(getLikes());
+      cont = 1;
     }
   };
 

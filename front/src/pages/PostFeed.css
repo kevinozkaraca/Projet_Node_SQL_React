@@ -318,6 +318,10 @@
     margin-left: -15px;
     color: #4e5166;
   }
+  .commentBody {
+    width: 100%;
+    font-size: larger;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   * {
@@ -638,6 +642,10 @@
     background-color: rgba(255, 255, 255, 0);
     margin-left: -15px;
     color: #4e5166;
+  }
+  .commentBody {
+    width: 100%;
+    font-size: larger;
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 5000px) {

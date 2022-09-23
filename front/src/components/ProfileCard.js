@@ -176,7 +176,7 @@ const ProfileCard = () => {
         <div className="profileCardIMG">
           <img className="profileCardIMG" src={infos.imageUrl} alt="Avatar" />
         </div>
-        <h1 className="profileCardName">{infos.usename + " "}</h1>
+        <h1 className="profileCardName">{infos.username + " "}</h1>
 
         <p className="profileCardPosts">{"Auteur de " + nbPosts(infos.userId)}</p>
       </div>
