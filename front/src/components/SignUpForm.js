@@ -42,7 +42,6 @@ const SignUpFrom = (props) => {
           case "invalidPassword":
             emailError.innerHTML = "";
             usernameError.innerHTML = "";
-
             passwordError.innerHTML = "Le mot de passe doit contenir 5 à 20 caractères";
             break;
           case "success":
@@ -53,7 +52,6 @@ const SignUpFrom = (props) => {
           default:
             emailError.innerHTML = "";
             usernameError.innerHTML = "";
-
             passwordError.innerHTML = "";
         }
       })

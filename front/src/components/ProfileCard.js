@@ -16,7 +16,6 @@ const ProfileCard = () => {
   const [infos, setInfos] = useState({});
   const [locked, setLocked] = useState(true);
   const [mail, setMail] = useState(userData.email);
-
   const [file, setFile] = useState("");
   const [picture, setPicture] = useState("");
   const [password1, setPassword1] = useState("");

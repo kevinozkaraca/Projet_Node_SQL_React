@@ -29,7 +29,6 @@ const Comment = (com) => {
                 if (window.confirm("Etes-vous sûr(e) ?\n(Cette action est irréversible)")) {
                   await dispatch(deleteComment(com.comment.comId));
                   await dispatch(getAllComments());
-                  window.location.reload(true);
                 }
               }}
             />
