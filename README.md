@@ -20,6 +20,12 @@ width= 90%
 
 ## Mise en place de la base de données
 
+Installer le package avec la commande :
+
+```
+npm install
+```
+
 prisma base de données dans un fichier shema.prisma :
 
 ```
